@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB6910AE1C91A8820050EE17 /* Esptouch.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910AD1C91A8820050EE17 /* Esptouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910B51C91A8820050EE17 /* Esptouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6910AA1C91A8810050EE17 /* Esptouch.framework */; };
+		BB6910BA1C91A8820050EE17 /* EsptouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6910B91C91A8820050EE17 /* EsptouchTests.m */; };
+		BB6910E51C91B3400050EE17 /* ESPTouchDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910C61C91B3400050EE17 /* ESPTouchDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910E61C91B3400050EE17 /* ESPDataCode.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910C81C91B3400050EE17 /* ESPDataCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910E71C91B3400050EE17 /* ESPDataCode.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6910C91C91B3400050EE17 /* ESPDataCode.m */; };
+		BB6910E81C91B3400050EE17 /* ESPDatumCode.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910CA1C91B3400050EE17 /* ESPDatumCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910E91C91B3400050EE17 /* ESPDatumCode.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6910CB1C91B3400050EE17 /* ESPDatumCode.m */; };
+		BB6910EA1C91B3400050EE17 /* ESPGuideCode.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910CC1C91B3400050EE17 /* ESPGuideCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910EB1C91B3400050EE17 /* ESPGuideCode.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6910CD1C91B3400050EE17 /* ESPGuideCode.m */; };
+		BB6910EC1C91B3400050EE17 /* ESPTouchGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910CE1C91B3400050EE17 /* ESPTouchGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910ED1C91B3400050EE17 /* ESPTouchGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6910CF1C91B3400050EE17 /* ESPTouchGenerator.m */; };
+		BB6910EE1C91B3400050EE17 /* ESPTouchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910D11C91B3400050EE17 /* ESPTouchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910EF1C91B3400050EE17 /* ESPTouchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6910D21C91B3400050EE17 /* ESPTouchResult.m */; };
+		BB6910F01C91B3400050EE17 /* ESPTouchTask.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910D31C91B3400050EE17 /* ESPTouchTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910F11C91B3400050EE17 /* ESPTouchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6910D41C91B3400050EE17 /* ESPTouchTask.m */; };
+		BB6910F21C91B3400050EE17 /* ESPTouchTaskParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910D51C91B3400050EE17 /* ESPTouchTaskParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910F31C91B3400050EE17 /* ESPTouchTaskParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6910D61C91B3400050EE17 /* ESPTouchTaskParameter.m */; };
+		BB6910F41C91B3400050EE17 /* ESPUDPSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910D81C91B3400050EE17 /* ESPUDPSocketClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910F51C91B3400050EE17 /* ESPUDPSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6910D91C91B3400050EE17 /* ESPUDPSocketClient.m */; };
+		BB6910F61C91B3400050EE17 /* ESPUDPSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910DA1C91B3400050EE17 /* ESPUDPSocketServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910F71C91B3400050EE17 /* ESPUDPSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6910DB1C91B3400050EE17 /* ESPUDPSocketServer.m */; };
+		BB6910F81C91B3400050EE17 /* ESP_ByteUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910DD1C91B3400050EE17 /* ESP_ByteUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910F91C91B3400050EE17 /* ESP_ByteUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6910DE1C91B3400050EE17 /* ESP_ByteUtil.m */; };
+		BB6910FA1C91B3400050EE17 /* ESP_CRC8.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910DF1C91B3400050EE17 /* ESP_CRC8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910FB1C91B3400050EE17 /* ESP_CRC8.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6910E01C91B3400050EE17 /* ESP_CRC8.m */; };
+		BB6910FC1C91B3400050EE17 /* ESP_NetUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910E11C91B3400050EE17 /* ESP_NetUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6910FD1C91B3400050EE17 /* ESP_NetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6910E21C91B3400050EE17 /* ESP_NetUtil.m */; };
+		BB6910FE1C91B3400050EE17 /* IPAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = BB6910E31C91B3400050EE17 /* IPAddress.c */; };
+		BB6910FF1C91B3400050EE17 /* IPAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6910E41C91B3400050EE17 /* IPAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB6910B61C91A8820050EE17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6910A11C91A8810050EE17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6910A91C91A8810050EE17;
+			remoteInfo = Esptouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB6910AA1C91A8810050EE17 /* Esptouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Esptouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6910AD1C91A8820050EE17 /* Esptouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Esptouch.h; sourceTree = "<group>"; };
+		BB6910AF1C91A8820050EE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6910B41C91A8820050EE17 /* EsptouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsptouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6910B91C91A8820050EE17 /* EsptouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EsptouchTests.m; sourceTree = "<group>"; };
+		BB6910BB1C91A8820050EE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6910C61C91B3400050EE17 /* ESPTouchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchDelegate.h; sourceTree = "<group>"; };
+		BB6910C81C91B3400050EE17 /* ESPDataCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPDataCode.h; sourceTree = "<group>"; };
+		BB6910C91C91B3400050EE17 /* ESPDataCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPDataCode.m; sourceTree = "<group>"; };
+		BB6910CA1C91B3400050EE17 /* ESPDatumCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPDatumCode.h; sourceTree = "<group>"; };
+		BB6910CB1C91B3400050EE17 /* ESPDatumCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPDatumCode.m; sourceTree = "<group>"; };
+		BB6910CC1C91B3400050EE17 /* ESPGuideCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPGuideCode.h; sourceTree = "<group>"; };
+		BB6910CD1C91B3400050EE17 /* ESPGuideCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPGuideCode.m; sourceTree = "<group>"; };
+		BB6910CE1C91B3400050EE17 /* ESPTouchGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchGenerator.h; sourceTree = "<group>"; };
+		BB6910CF1C91B3400050EE17 /* ESPTouchGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchGenerator.m; sourceTree = "<group>"; };
+		BB6910D11C91B3400050EE17 /* ESPTouchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchResult.h; sourceTree = "<group>"; };
+		BB6910D21C91B3400050EE17 /* ESPTouchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchResult.m; sourceTree = "<group>"; };
+		BB6910D31C91B3400050EE17 /* ESPTouchTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchTask.h; sourceTree = "<group>"; };
+		BB6910D41C91B3400050EE17 /* ESPTouchTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTask.m; sourceTree = "<group>"; };
+		BB6910D51C91B3400050EE17 /* ESPTouchTaskParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchTaskParameter.h; sourceTree = "<group>"; };
+		BB6910D61C91B3400050EE17 /* ESPTouchTaskParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTaskParameter.m; sourceTree = "<group>"; };
+		BB6910D81C91B3400050EE17 /* ESPUDPSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketClient.h; sourceTree = "<group>"; };
+		BB6910D91C91B3400050EE17 /* ESPUDPSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketClient.m; sourceTree = "<group>"; };
+		BB6910DA1C91B3400050EE17 /* ESPUDPSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketServer.h; sourceTree = "<group>"; };
+		BB6910DB1C91B3400050EE17 /* ESPUDPSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketServer.m; sourceTree = "<group>"; };
+		BB6910DD1C91B3400050EE17 /* ESP_ByteUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_ByteUtil.h; sourceTree = "<group>"; };
+		BB6910DE1C91B3400050EE17 /* ESP_ByteUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_ByteUtil.m; sourceTree = "<group>"; };
+		BB6910DF1C91B3400050EE17 /* ESP_CRC8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_CRC8.h; sourceTree = "<group>"; };
+		BB6910E01C91B3400050EE17 /* ESP_CRC8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_CRC8.m; sourceTree = "<group>"; };
+		BB6910E11C91B3400050EE17 /* ESP_NetUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_NetUtil.h; sourceTree = "<group>"; };
+		BB6910E21C91B3400050EE17 /* ESP_NetUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_NetUtil.m; sourceTree = "<group>"; };
+		BB6910E31C91B3400050EE17 /* IPAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IPAddress.c; sourceTree = "<group>"; };
+		BB6910E41C91B3400050EE17 /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB6910A61C91A8810050EE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6910B11C91A8820050EE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6910B51C91A8820050EE17 /* Esptouch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB6910A01C91A8810050EE17 = {
+			isa = PBXGroup;
+			children = (
+				BB6910AC1C91A8820050EE17 /* Esptouch */,
+				BB6910B81C91A8820050EE17 /* EsptouchTests */,
+				BB6910AB1C91A8810050EE17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB6910AB1C91A8810050EE17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB6910AA1C91A8810050EE17 /* Esptouch.framework */,
+				BB6910B41C91A8820050EE17 /* EsptouchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB6910AC1C91A8820050EE17 /* Esptouch */ = {
+			isa = PBXGroup;
+			children = (
+				BB6910C51C91B3400050EE17 /* esptouch */,
+				BB6910C71C91B3400050EE17 /* protocol */,
+				BB6910D01C91B3400050EE17 /* task */,
+				BB6910D71C91B3400050EE17 /* udp */,
+				BB6910DC1C91B3400050EE17 /* util */,
+				BB6910AD1C91A8820050EE17 /* Esptouch.h */,
+				BB6910AF1C91A8820050EE17 /* Info.plist */,
+			);
+			path = Esptouch;
+			sourceTree = "<group>";
+		};
+		BB6910B81C91A8820050EE17 /* EsptouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB6910B91C91A8820050EE17 /* EsptouchTests.m */,
+				BB6910BB1C91A8820050EE17 /* Info.plist */,
+			);
+			path = EsptouchTests;
+			sourceTree = "<group>";
+		};
+		BB6910C51C91B3400050EE17 /* esptouch */ = {
+			isa = PBXGroup;
+			children = (
+				BB6910C61C91B3400050EE17 /* ESPTouchDelegate.h */,
+			);
+			path = esptouch;
+			sourceTree = "<group>";
+		};
+		BB6910C71C91B3400050EE17 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BB6910C81C91B3400050EE17 /* ESPDataCode.h */,
+				BB6910C91C91B3400050EE17 /* ESPDataCode.m */,
+				BB6910CA1C91B3400050EE17 /* ESPDatumCode.h */,
+				BB6910CB1C91B3400050EE17 /* ESPDatumCode.m */,
+				BB6910CC1C91B3400050EE17 /* ESPGuideCode.h */,
+				BB6910CD1C91B3400050EE17 /* ESPGuideCode.m */,
+				BB6910CE1C91B3400050EE17 /* ESPTouchGenerator.h */,
+				BB6910CF1C91B3400050EE17 /* ESPTouchGenerator.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		BB6910D01C91B3400050EE17 /* task */ = {
+			isa = PBXGroup;
+			children = (
+				BB6910D11C91B3400050EE17 /* ESPTouchResult.h */,
+				BB6910D21C91B3400050EE17 /* ESPTouchResult.m */,
+				BB6910D31C91B3400050EE17 /* ESPTouchTask.h */,
+				BB6910D41C91B3400050EE17 /* ESPTouchTask.m */,
+				BB6910D51C91B3400050EE17 /* ESPTouchTaskParameter.h */,
+				BB6910D61C91B3400050EE17 /* ESPTouchTaskParameter.m */,
+			);
+			path = task;
+			sourceTree = "<group>";
+		};
+		BB6910D71C91B3400050EE17 /* udp */ = {
+			isa = PBXGroup;
+			children = (
+				BB6910D81C91B3400050EE17 /* ESPUDPSocketClient.h */,
+				BB6910D91C91B3400050EE17 /* ESPUDPSocketClient.m */,
+				BB6910DA1C91B3400050EE17 /* ESPUDPSocketServer.h */,
+				BB6910DB1C91B3400050EE17 /* ESPUDPSocketServer.m */,
+			);
+			path = udp;
+			sourceTree = "<group>";
+		};
+		BB6910DC1C91B3400050EE17 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				BB6910DD1C91B3400050EE17 /* ESP_ByteUtil.h */,
+				BB6910DE1C91B3400050EE17 /* ESP_ByteUtil.m */,
+				BB6910DF1C91B3400050EE17 /* ESP_CRC8.h */,
+				BB6910E01C91B3400050EE17 /* ESP_CRC8.m */,
+				BB6910E11C91B3400050EE17 /* ESP_NetUtil.h */,
+				BB6910E21C91B3400050EE17 /* ESP_NetUtil.m */,
+				BB6910E31C91B3400050EE17 /* IPAddress.c */,
+				BB6910E41C91B3400050EE17 /* IPAddress.h */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BB6910A71C91A8810050EE17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6910E51C91B3400050EE17 /* ESPTouchDelegate.h in Headers */,
+				BB6910EA1C91B3400050EE17 /* ESPGuideCode.h in Headers */,
+				BB6910F21C91B3400050EE17 /* ESPTouchTaskParameter.h in Headers */,
+				BB6910FA1C91B3400050EE17 /* ESP_CRC8.h in Headers */,
+				BB6910F01C91B3400050EE17 /* ESPTouchTask.h in Headers */,
+				BB6910EE1C91B3400050EE17 /* ESPTouchResult.h in Headers */,
+				BB6910F81C91B3400050EE17 /* ESP_ByteUtil.h in Headers */,
+				BB6910FC1C91B3400050EE17 /* ESP_NetUtil.h in Headers */,
+				BB6910E61C91B3400050EE17 /* ESPDataCode.h in Headers */,
+				BB6910F61C91B3400050EE17 /* ESPUDPSocketServer.h in Headers */,
+				BB6910E81C91B3400050EE17 /* ESPDatumCode.h in Headers */,
+				BB6910FF1C91B3400050EE17 /* IPAddress.h in Headers */,
+				BB6910AE1C91A8820050EE17 /* Esptouch.h in Headers */,
+				BB6910EC1C91B3400050EE17 /* ESPTouchGenerator.h in Headers */,
+				BB6910F41C91B3400050EE17 /* ESPUDPSocketClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BB6910A91C91A8810050EE17 /* Esptouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6910BE1C91A8820050EE17 /* Build configuration list for PBXNativeTarget "Esptouch" */;
+			buildPhases = (
+				BB6910A51C91A8810050EE17 /* Sources */,
+				BB6910A61C91A8810050EE17 /* Frameworks */,
+				BB6910A71C91A8810050EE17 /* Headers */,
+				BB6910A81C91A8810050EE17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Esptouch;
+			productName = Esptouch;
+			productReference = BB6910AA1C91A8810050EE17 /* Esptouch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB6910B31C91A8820050EE17 /* EsptouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6910C11C91A8820050EE17 /* Build configuration list for PBXNativeTarget "EsptouchTests" */;
+			buildPhases = (
+				BB6910B01C91A8820050EE17 /* Sources */,
+				BB6910B11C91A8820050EE17 /* Frameworks */,
+				BB6910B21C91A8820050EE17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6910B71C91A8820050EE17 /* PBXTargetDependency */,
+			);
+			name = EsptouchTests;
+			productName = EsptouchTests;
+			productReference = BB6910B41C91A8820050EE17 /* EsptouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB6910A11C91A8810050EE17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "梁惠源";
+				TargetAttributes = {
+					BB6910A91C91A8810050EE17 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BB6910B31C91A8820050EE17 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = BB6910A41C91A8810050EE17 /* Build configuration list for PBXProject "Esptouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB6910A01C91A8810050EE17;
+			productRefGroup = BB6910AB1C91A8810050EE17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6910A91C91A8810050EE17 /* Esptouch */,
+				BB6910B31C91A8820050EE17 /* EsptouchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB6910A81C91A8810050EE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6910B21C91A8820050EE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB6910A51C91A8810050EE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6910FE1C91B3400050EE17 /* IPAddress.c in Sources */,
+				BB6910FD1C91B3400050EE17 /* ESP_NetUtil.m in Sources */,
+				BB6910F51C91B3400050EE17 /* ESPUDPSocketClient.m in Sources */,
+				BB6910F31C91B3400050EE17 /* ESPTouchTaskParameter.m in Sources */,
+				BB6910ED1C91B3400050EE17 /* ESPTouchGenerator.m in Sources */,
+				BB6910E71C91B3400050EE17 /* ESPDataCode.m in Sources */,
+				BB6910FB1C91B3400050EE17 /* ESP_CRC8.m in Sources */,
+				BB6910E91C91B3400050EE17 /* ESPDatumCode.m in Sources */,
+				BB6910F11C91B3400050EE17 /* ESPTouchTask.m in Sources */,
+				BB6910F91C91B3400050EE17 /* ESP_ByteUtil.m in Sources */,
+				BB6910EB1C91B3400050EE17 /* ESPGuideCode.m in Sources */,
+				BB6910EF1C91B3400050EE17 /* ESPTouchResult.m in Sources */,
+				BB6910F71C91B3400050EE17 /* ESPUDPSocketServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6910B01C91A8820050EE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6910BA1C91A8820050EE17 /* EsptouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB6910B71C91A8820050EE17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6910A91C91A8810050EE17 /* Esptouch */;
+			targetProxy = BB6910B61C91A8820050EE17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB6910BC1C91A8820050EE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB6910BD1C91A8820050EE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB6910BF1C91A8820050EE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Esptouch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.molmc.Esptouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BB6910C01C91A8820050EE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Esptouch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.molmc.Esptouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BB6910C21C91A8820050EE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EsptouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.molmc.EsptouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB6910C31C91A8820050EE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EsptouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.molmc.EsptouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB6910A41C91A8810050EE17 /* Build configuration list for PBXProject "Esptouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6910BC1C91A8820050EE17 /* Debug */,
+				BB6910BD1C91A8820050EE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6910BE1C91A8820050EE17 /* Build configuration list for PBXNativeTarget "Esptouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6910BF1C91A8820050EE17 /* Debug */,
+				BB6910C01C91A8820050EE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB6910C11C91A8820050EE17 /* Build configuration list for PBXNativeTarget "EsptouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6910C21C91A8820050EE17 /* Debug */,
+				BB6910C31C91A8820050EE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB6910A11C91A8810050EE17 /* Project object */;
+}
